@@ -31,6 +31,7 @@ Goal is a round robin with disabled timer interrupts whenever allocated PCBs < a
 3. Process EXEC and EXIT
 4. Thread creation and destruction (when main thread exits, the program also exits)
 5. MMAP/MUNMAP/BREAK
+6. Open, read, write, close for remote filesystem using VirtioFS
 
 ### Out of memory
 
@@ -41,8 +42,7 @@ Basically crash the kernel and print to screen no memory and turn off interrupts
 No embedded hardware support. 
 
 ### Filesystem
-
-Basically no filesystem. The launch image contains programs that I can launch.
+Potentially creating a VFS using VirtioFS within my operating system.
 
 ### Basic Library for MushuOS
 
