@@ -39,7 +39,7 @@ Basically crash the kernel and print to screen no memory and turn off interrupts
 
 ### Hardware Support
 
-No embedded hardware support. 
+Keyboard and paravirtualized VirtioFS device.
 
 ### Filesystem
 Potentially creating a VFS using VirtioFS within my operating system.
