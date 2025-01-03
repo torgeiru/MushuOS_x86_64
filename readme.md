@@ -7,7 +7,7 @@ This project is for me to learn modern C++ and use cmake.
 ## Project and Scope
 
 The scope of the project will be to make a kernel that supports multiple processes and threads and CPUs. 
-The kernel is a single user operating system with protection levels and no virtul memory.
+The kernel is a single user operating system with protection levels and no virtual memory.
 
 ### Shell
 
